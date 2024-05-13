@@ -1,0 +1,14 @@
+.search-bar {
+    max-width: 600px;
+    margin-block: .5rem;
+    margin-inline: auto;
+}
+
+.search-bar-input {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    border-color: #e1e2d3;
+    border-radius: 4px;
+}

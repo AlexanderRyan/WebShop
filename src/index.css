@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #e8e2d8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+main {
+  max-width: 1280px;
+  padding-inline: .5rem;
+  padding-block: 0 1rem;
+  margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}

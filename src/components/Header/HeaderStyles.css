@@ -1,0 +1,27 @@
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: .5rem;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.list-item {
+  padding-inline-start: 5px;
+  cursor: pointer
+}
+
+.cart-icon-btn {
+  height: 35px;
+  background-color: transparent;
+  border: none;
+}
+
+.cart-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: .5rem;
+  width: 35px;
+  height: 35px;
+}

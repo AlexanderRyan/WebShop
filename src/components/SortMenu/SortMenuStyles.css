@@ -1,0 +1,24 @@
+.sort-menu {
+    max-width: fit-content;
+}
+
+.expanding-menu {
+    width: 100%;
+}
+
+.menu-closed {
+    display: none;
+}
+
+.menu-open {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container > label {
+  text-transform: capitalize;
+}
+
+legend {
+    font-weight: 700;
+}

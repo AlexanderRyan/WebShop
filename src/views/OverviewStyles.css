@@ -1,0 +1,10 @@
+.overview-list-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    @media screen and (min-width: 520px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
